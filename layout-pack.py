@@ -9,7 +9,7 @@ class MyFirstGUI:
         self.label.pack()
 
         self.greet_button = Button(master, text="Greet", command=self.greet)
-        self.greet_button.pack(side=LEFT)
+        self.greet_button.pack(side=LEFT) # or side='left'
 
         self.close_button = Button(master, text="Close", command=master.quit)
         self.close_button.pack(side=RIGHT)
